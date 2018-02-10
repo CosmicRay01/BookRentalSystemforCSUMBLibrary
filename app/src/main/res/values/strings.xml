@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Book Rental System</string>
+    <string name="view">View</string>
+    <string name="create_account">Create Account</string>
+    <string name="place_hold">Place Hold</string>
+    <string name="enter_info">Enter Pickup and Return Information.</string>
+    <string name="account_requirments">Username and password must have at least one special symbol (!, @, #, or $), one number, and three alphabetic letters.</string>
+    <string name="cancel_hold">Cancel Hold</string>
+    <string name="manage_system">Manage System</string>
+    <string name="login_system">Please enter your username and password.</string>
+    <string name="confirm">Confirm</string>
+    <string name="sign_in">Sign In</string>
+    <string name="login">Login</string>
+    <string name="librarian_login">Enter Librarian username and password</string>
+</resources>

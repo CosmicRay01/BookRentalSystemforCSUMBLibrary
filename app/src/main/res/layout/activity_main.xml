@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="50dip"
+    tools:context="edu.csumb.jomijangos.bookrentalsystemforcsumblibrary.MainActivity">
+
+    <Button
+        android:id="@+id/account_create"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:textSize="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:onClick="createAccount"
+        android:text="@string/create_account" />
+    <Button
+        android:id="@+id/hold_place"
+        android:layout_width="275dp"
+        android:layout_height="70dp"
+        android:textSize="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:onClick="placeHold"
+        android:text="@string/place_hold" />
+    <Button
+        android:id="@+id/hold_cancel"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:textSize="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:onClick="cancelHold"
+        android:text="@string/cancel_hold" />
+    <Button
+        android:id="@+id/system_manage"
+        android:layout_width="275dp"
+        android:layout_height="70dp"
+        android:textSize="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:onClick="manageSystem"
+        android:text="@string/manage_system" />
+
+</LinearLayout>
